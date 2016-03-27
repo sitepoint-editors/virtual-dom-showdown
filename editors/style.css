@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body > div, main {
+  height: 100%;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: 10pt;
+  font-weight: bold;
+  display: block;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-bottom: solid 1px #eee;
+  margin-bottom: 1em;
+}
+
+main > section {
+  width: 50%;
+  float: left;
+  height: 100%;
+  padding: 1em .5em;
+  box-sizing: border-box;
+  font-size: 14pt;
+  opacity: 0.5;
+}
+
+section:hover {
+  opacity: 1;
+  transition-duration: 0.5s;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-height: 90%;
+  border: 0;
+  outline: none;
+  font-size: 12pt;
+  background: transparent;
+}
+
