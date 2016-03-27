@@ -2,6 +2,7 @@
 Comparing React with three other virtual DOM libraries that support JSX components by building a simple component based markdown editor.
 
 ## React
+* __Version__: 0.14.7
 * __Lines of Code__: 61
 * __Dependencies__: `react`, `react-dom`, `marked`
 * __Bundle Size__: 154.1kb
@@ -10,6 +11,7 @@ Comparing React with three other virtual DOM libraries that support JSX componen
 ![](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/03/1458057687react-flamegraph.png)
 
 ## Deku
+* __Version__: 2.0.0-rc16
 * __Lines of Code__: 80
 * __Dependencies__: `deku`, `redux`, `marked`
 * __Bundle Size__: 51.2kb
@@ -18,6 +20,7 @@ Comparing React with three other virtual DOM libraries that support JSX componen
 ![](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/03/1458057722deku-flamegraph.png)
 
 ## Preact
+* __Version__: 0.14.7
 * __Lines of Code__: 62
 * __Dependencies__: `preact`, `decko`, `marked`
 * __Bundle Size__: 30.6kb
@@ -26,6 +29,7 @@ Comparing React with three other virtual DOM libraries that support JSX componen
 ![](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/03/1458057699preact-flamegraph.png)
 
 ## Virtual DOM
+* __Version__: 2.1.1
 * __Lines of Code__: 85
 * __Dependencies__: `virtual-dom`, `virtual-dom-util`, `redux`, `marked`
 * __Bundle Size__: 50.5kb
