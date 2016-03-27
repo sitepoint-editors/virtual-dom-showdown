@@ -33,4 +33,20 @@ Comparing React with three other virtual DOM libraries that support JSX componen
 * __Codepen__: http://codepen.io/danthedev/pen/ONMzqX
 ![](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/03/1458057712vdom-flamegraph.png)
 
+# Builds
+This repository contains everything you need to make performance testing builds for the markdown editors. An ES5 snapshot of the Codepen sources has been included in `src/` and you can install the other dependencies with `npm install`. Run `make minify` to create a build, then find the appropriate HTML in `editors/`.
 
+## Compile
+Use `make compile` to create an unminified build.
+
+## Minify
+Use `make minify` to create a minified build.
+
+## Gzip
+Use `make gzip` to gzip a minified build (size testing artifact).
+
+## Minify Deps
+Use `make minify-deps` to create a minified versions of each dependency (size testing artifact).
+
+## Clean
+Use `make clean` to delete all built code.
