@@ -32,7 +32,7 @@ minify-deps:
 	du -h minified-deps/*
 
 gzip:
-	#make minify
+	make minify
 	mkdir -p gzipped
 	gzip < minified/react.js  > gzipped/react.gz
 	gzip < minified/preact.js > gzipped/preact.gz
