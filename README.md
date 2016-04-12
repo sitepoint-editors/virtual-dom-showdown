@@ -1,5 +1,8 @@
 # Virtual DOM + JSX Showdown
+
 Comparing React with three other virtual DOM libraries that support JSX components by building a simple component based markdown editor.
+
+Read the article on SitePoint: [3 Lightweight React Alternatives: Preact, VirtualDom & Deku](http://www.sitepoint.com/react-alternatives-preact-virtualdom-deku)
 
 ## React
 * __Version__: 0.14.7
@@ -7,7 +10,7 @@ Comparing React with three other virtual DOM libraries that support JSX componen
 * __Dependencies__: `react`, `react-dom`, `marked`
 * __Bundle Size__: 154.1kb
 * __Gzipped__: 45.3kb
-* __Codepen__: http://codepen.io/danthedev/pen/jqWqRd
+* __Codepen__: http://codepen.io/SitePoint/pen/qZxpeP
 ![](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/03/1458057687react-flamegraph.png)
 
 ## Deku
@@ -16,7 +19,7 @@ Comparing React with three other virtual DOM libraries that support JSX componen
 * __Dependencies__: `deku`, `redux`, `marked`
 * __Bundle Size__: 51.2kb
 * __Gzipped__: 15.3kb
-* __Codepen__: http://codepen.io/danthedev/pen/yOezbx
+* __Codepen__: http://codepen.io/SitePoint/pen/NNyXQZ
 ![](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/03/1458057722deku-flamegraph.png)
 
 ## Preact
@@ -25,7 +28,7 @@ Comparing React with three other virtual DOM libraries that support JSX componen
 * __Dependencies__: `preact`, `decko`, `marked`
 * __Bundle Size__: 30.6kb
 * __Gzipped__: 10.5kb
-* __Codepen__: http://codepen.io/danthedev/pen/oxbpqm
+* __Codepen__: http://codepen.io/SitePoint/pen/reJJBW
 ![](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/03/1458057699preact-flamegraph.png)
 
 ## Virtual DOM
@@ -34,7 +37,7 @@ Comparing React with three other virtual DOM libraries that support JSX componen
 * __Dependencies__: `virtual-dom`, `virtual-dom-util`, `redux`, `marked`
 * __Bundle Size__: 50.5kb
 * __Gzipped__: 15.2kb
-* __Codepen__: http://codepen.io/danthedev/pen/ONMzqX
+* __Codepen__: http://codepen.io/SitePoint/pen/reJJNW
 ![](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/03/1458057712vdom-flamegraph.png)
 
 # Builds
